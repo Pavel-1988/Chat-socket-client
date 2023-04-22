@@ -8,7 +8,7 @@ import icon from "../images/icon.svg"
 import styles from "../styles/Chat.module.css"
 import Messages from './Messages';
 
-const socket = io.connect("http://localhost:5000")
+const socket = io.connect("https://oline-chat.onrender.com")
 
 const Chat = () => {
 
